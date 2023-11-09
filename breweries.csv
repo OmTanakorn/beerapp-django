@@ -1,0 +1,559 @@
+name,city,state
+NorthGate Brewing ,Minneapolis, MN
+Against the Grain Brewery,Louisville, KY
+Jack's Abby Craft Lagers,Framingham, MA
+Mike Hess Brewing Company,San Diego, CA
+Fort Point Beer Company,San Francisco, CA
+COAST Brewing Company,Charleston, SC
+Great Divide Brewing Company,Denver, CO
+Tapistry Brewing,Bridgman, MI
+Big Lake Brewing,Holland, MI
+The Mitten Brewing Company,Grand Rapids, MI
+Brewery Vivant,Grand Rapids, MI
+Petoskey Brewing,Petoskey, MI
+Blackrocks Brewery,Marquette, MI
+Perrin Brewing Company,Comstock Park, MI
+Witch's Hat Brewing Company,South Lyon, MI
+Founders Brewing Company,Grand Rapids, MI
+Flat 12 Bierwerks,Indianapolis, IN
+Tin Man Brewing Company,Evansville, IN
+Black Acre Brewing Co.,Indianapolis, IN
+Brew Link Brewing,Plainfield, IN
+Bare Hands Brewery,Granger, IN
+Three Pints Brewing,Martinsville, IN
+Four Fathers Brewing ,Valparaiso, IN
+Indiana City Brewing,Indianapolis, IN
+Burn 'Em Brewing,Michigan City, IN
+Sun King Brewing Company,Indianapolis, IN
+Evil Czech Brewery,Mishawaka, IN
+450 North Brewing Company,Columbus, IN
+Taxman Brewing Company,Bargersville, IN
+Cedar Creek Brewery,Seven Points, TX
+SanTan Brewing Company,Chandler, AZ
+Boulevard Brewing Company,Kansas City, MO
+James Page Brewing Company,Stevens Point, WI
+The Dudes' Brewing Company,Torrance, CA
+Ballast Point Brewing Company,San Diego, CA
+Anchor Brewing Company,San Francisco, CA
+Figueroa Mountain Brewing Company,Buellton, CA
+Avery Brewing Company,Boulder, CO
+Twisted X Brewing Company,Dripping Springs, TX
+Gonzo's BiggDogg Brewing,Kalamazoo, MI
+Big Muddy Brewing,Murphysboro, IL
+Lost Nation Brewing,East Fairfield, VT
+Rising Tide Brewing Company,Portland, ME
+Rivertowne Brewing Company,Export, PA
+Revolution Brewing Company,Chicago, IL
+Tallgrass Brewing Company,Manhattan, KS
+Sixpoint Craft Ales,Brooklyn, NY
+White Birch Brewing,Hooksett, NH
+Firestone Walker Brewing Company,Paso Robles, CA
+SweetWater Brewing Company,Atlanta, GA
+Flying Mouse Brewery,Troutville, VA
+Upslope Brewing Company,Boulder, CO
+Pipeworks Brewing Company,Chicago, IL
+Bent Brewstillery,Roseville, MN
+Flesk Brewing Company,Lombard, IL
+Pollyanna Brewing Company,Lemont, IL
+BuckleDown Brewing,Lyons, IL
+Destihl Brewery,Bloomington, IL
+Summit Brewing Company,St. Paul, MN
+Latitude 42 Brewing Company,Portage, MI
+4 Hands Brewing Company,Saint Louis, MO
+Surly Brewing Company,Brooklyn Center, MN
+Against The Grain Brewery,Louisville, KY
+Crazy Mountain Brewing Company,Edwards, CO
+SlapShot Brewing Company,Chicago, IL
+Mikerphone Brewing,Chicago, IL
+Freetail Brewing Company,San Antonio, TX
+3 Daughters Brewing,St Petersburg, FL
+Red Shedman Farm Brewery and Hop...,Mt. Airy, MD
+Appalachian Mountain Brewery,Boone, NC
+Birdsong Brewing Company,Charlotte, NC
+Union Craft Brewing,Baltimore, MD
+Atwater Brewery,Detroit, MI
+Ale Asylum,Madison, WI
+Two Brothers Brewing Company,Warrenville, IL
+Bent Paddle Brewing Company,Duluth, MN
+Bell's Brewery,Kalamazoo, MI
+Blue Owl Brewing,Austin, TX
+Speakasy Ales & Lagers,San Francisco, CA
+Black Tooth Brewing Company,Sheridan, WY
+Hopworks Urban Brewery,Portland, OR
+Epic Brewing,Denver, CO
+New Belgium Brewing Company,Fort Collins, CO
+Sierra Nevada Brewing Company,Chico, CA
+Keweenaw Brewing Company,Houghton, MI
+Brewery Terra Firma,Traverse City, MI
+Grey Sail Brewing Company,Westerly, RI
+Kirkwood Station Brewing Company,Kirkwood, MO
+Goose Island Brewing Company,Chicago, IL
+Broad Brook Brewing LLC,East Windsor, CT
+The Lion Brewery,Wilkes-Barre, PA
+Madtree Brewing Company,Cincinnati, OH
+Jackie O's Pub & Brewery,Athens, OH
+Rhinegeist Brewery,Cincinnati, OH
+Warped Wing Brewing Company,Dayton, OH
+Blackrocks Brewery,Marquette, MA
+Catawba Valley Brewing Company,Morganton, NC
+Tröegs Brewing Company,Hershey, PA
+Mission Brewery,San Diego, CA
+Christian Moerlein Brewing Company,Cincinnati, OH
+West Sixth Brewing,Lexington, KY
+Coastal Extreme Brewing Company,Newport, RI
+King Street Brewing Company,Anchorage, AK
+Beer Works Brewery,Lowell, MA
+Lone Tree Brewing Company,Lone Tree, CO
+Four String Brewing Company,Columbus, OH
+Glabrous Brewing Company,Pineland, ME
+Bonfire Brewing Company,Eagle, CO
+Thomas Hooker Brewing Company,Bloomfield, CT
+"Woodstock Inn, Station & Brewery",North Woodstock, NH
+Renegade Brewing Company,Denver, CO
+Mother Earth Brew Company,Vista, CA
+Black Market Brewing Company,Temecula, CA
+Vault Brewing Company,Yardley, PA
+Jailbreak Brewing Company,Laurel, MD
+Smartmouth Brewing Company,Norfolk, VA
+Base Camp Brewing Co.,Portland, OR
+Alameda Brewing,Portland, OR
+Southern Star Brewing Company,Conroe, TX
+Steamworks Brewing Company,Durango, CO
+Horny Goat Brew Pub,Milwaukee, WI
+Cheboygan Brewing Company,Cheboygan, MI
+Center of the Universe Brewing C...,Ashland, VA
+Ipswich Ale Brewery,Ipswich, MA
+Griffin Claw Brewing Company,Birmingham, MI
+Karbach Brewing Company,Houston, TX
+Uncle Billy's Brewery and Smokeh...,Austin, TX
+Deep Ellum Brewing Company,Dallas, TX
+Real Ale Brewing Company,Blanco, TX
+Straub Brewery,St Mary's, PA
+Shebeen Brewing Company,Wolcott, CT
+Stevens Point Brewery,Stevens Point, WI
+Weston Brewing Company,Weston, MO
+Southern Prohibition Brewing Com...,Hattiesburg, MS
+Minhas Craft Brewery,Monroe, WI
+Pug Ryan's Brewery,Dillon, CO
+Hops & Grains Brewing Company,Austin, TX
+Sietsema Orchards and Cider Mill,Ada, MI
+Summit Brewing Company,St Paul, MN
+Core Brewing & Distilling Company,Springdale, AR
+Independence Brewing Company,Austin, TX
+Cigar City Brewing Company,Tampa, FL
+Third Street Brewhouse,Cold Spring, MN
+Narragansett Brewing Company,Providence, RI
+Grimm Brothers Brewhouse,Loveland, CO
+Cisco Brewers,Nantucket, MA
+Angry Minnow,Hayward, WI
+Platform Beer Company,Cleveland, OH
+Odyssey Beerwerks,Arvada, CO
+Lonerider Brewing Company,Raleigh, NC
+Oakshire Brewing,Eugene, OR
+Fort Pitt Brewing Company,Latrobe, PA
+Tin Roof Brewing Company,Baton Rouge, LA
+Three Creeks Brewing,Sisters, OR
+2 Towns Ciderhouse,Corvallis, OR
+Caldera Brewing Company,Ashland, OR
+Greenbrier Valley Brewing Company,Lewisburg, WV
+Phoenix Ale Brewery,Phoenix, AZ
+Lumberyard Brewing Company,Flagstaff, AZ
+Uinta Brewing Company,Salt Lake City, UT
+Four Peaks Brewing Company,Tempe, AZ
+Martin House Brewing Company,Fort Worth, TX
+Right Brain Brewery,Traverse City, MI
+Sly Fox Brewing Company,Phoenixville, PA
+Round Guys Brewing,Lansdale, PA
+Great Crescent Brewery,Aurora, IN
+Oskar Blues Brewery,Longmont, CO
+Boxcar Brewing Company,West Chester, PA
+High Hops Brewery,Windsor, CO
+Crooked Fence Brewing Company,Garden City, ID
+Everybody's Brewing,White Salmon, WA
+Anderson Valley Brewing Company,Boonville, CA
+Fiddlehead Brewing Company,Shelburne, VT
+Evil Twin Brewing,Brooklyn, NY
+New Orleans Lager & Ale Brewing ...,New Orleans, LA
+Spiteful Brewing Company,Chicago, IL
+Rahr & Sons Brewing Company,Fort Worth, TX
+18th Street Brewery,Gary, IN
+Cambridge Brewing Company,Cambridge, MA
+Carolina Brewery,Pittsboro, NC
+Frog Level Brewing Company,Waynesville, NC
+Wild Wolf Brewing Company,Nellysford, VA
+COOP Ale Works,Oklahoma City, OK
+Seventh Son Brewing Company,Columbus, OH
+Oasis Texas Brewing Company,Austin, TX
+Vander Mill Ciders,Spring Lake, MI
+St. Julian Winery,Paw Paw, MI
+Pedernales Brewing Company,Fredericksburg, TX
+Mother's Brewing,Springfield, MO
+Modern Monks Brewery,Lincoln, NE
+Two Beers Brewing Company,Seattle, WA
+Snake River Brewing Company,Jackson, WY
+Capital Brewery,Middleton, WI
+Anthem Brewing Company,Oklahoma City, OK
+Goodlife Brewing Co.,Bend, OR
+Breakside Brewery,Portland, OR
+Goose Island Brewery Company,Chicago, IL
+Burnside Brewing Co.,Portland, OR
+Hop Valley Brewing Company,Springfield, OR
+Worthy Brewing Company,Bend, OR
+Occidental Brewing Company,Portland, OR
+Fearless Brewing Company,Estacada, OR
+Upland Brewing Company,Bloomington, IN
+Mehana Brewing Co.,Hilo, HI
+Hawai'i Nui Brewing Co.,Hilo, HI
+People's Brewing Company,Lafayette, IN
+Fort George Brewery,Astoria, OR
+Branchline Brewing Company,San Antonio, TX
+Kalona Brewing Company,Kalona, IA
+Modern Times Beer,San Diego, CA
+Temperance Beer Company,Evanston, IL
+Wisconsin Brewing Company,Verona, WI
+Crow Peak Brewing Company,Spearfish, SD
+Grapevine Craft Brewery,Farmers Branch, TX
+Buffalo Bayou Brewing Company,Houston, TX
+Texian Brewing Co.,Richmond, TX
+Orpheus Brewing,Atlanta, GA
+Forgotten Boardwalk,Cherry Hill, NJ
+Laughing Dog Brewing Company,Ponderay, ID
+Bozeman Brewing Company,Bozeman, MT
+Big Choice Brewing,Broomfield, CO
+Big Storm Brewing Company,Odessa, FL
+Carton Brewing Company,Atlantic Highlands, NJ
+Midnight Sun Brewing Company,Anchorage, AK
+Fat Head's Brewery,Middleburg Heights, OH
+Refuge Brewery,Temecula, CA
+Chatham Brewing,Chatham, NY
+DC Brau Brewing Company,Washington, DC
+Geneva Lake Brewing Company,Lake Geneva, WI
+Rochester Mills Brewing Company,Rochester, MI
+Cape Ann Brewing Company,Gloucester, MA
+Borderlands Brewing Company,Tucson, AZ
+College Street Brewhouse and Pub,Lake Havasu City, AZ
+Joseph James Brewing Company,Henderson, NV
+Harpoon Brewery,Boston, MA
+Back East Brewing Company,Bloomfield, CT
+Champion Brewing Company,Charlottesville, VA
+Devil's Backbone Brewing Company,Lexington, VA
+Newburgh Brewing Company,Newburgh, NY
+Wiseacre Brewing Company,Memphis, TN
+Golden Road Brewing,Los Angeles, CA
+New Republic Brewing Company,College Station, TX
+Infamous Brewing Company,Austin, TX
+Two Henrys Brewing Company,Plant City, FL
+Lift Bridge Brewing Company,Stillwater, MN
+Lucky Town Brewing Company,Jackson, MS
+Quest Brewing Company,Greenville, SC
+Creature Comforts,Athens, GA
+Half Full Brewery,Stamford, CT
+Southampton Publick House,Southampton, NY
+Chapman's Brewing,Angola, IN
+Barrio Brewing Company,Tucson, AZ
+Santa Cruz Mountain Brewing,Santa Cruz, CA
+Frankenmuth Brewery,Frankenmuth, MI
+Meckley's Cidery,Somerset Center, MI
+Stillwater Artisanal Ales,Baltimore, MD
+Finch's Beer Company,Chicago, IL
+South Austin Brewery,South Austin, TX
+Bauhaus Brew Labs,Minneapolis, MN
+Ozark Beer Company,Rogers, AR
+Mountain Town Brewing Company ,Mount Pleasant, MI
+Otter Creek Brewing,Waterbury, VT
+The Brewer's Art,Baltimore, MD
+Denver Beer Company,Denver, CO
+Ska Brewing Company,Durango, CO
+Tractor Brewing Company,Albuquerque, NM
+Peak Organic Brewing Company,Portland, ME
+Cape Cod Beer,Hyannis, MA
+Long Trail Brewing Company,Bridgewater Corners, VT
+Great Raft Brewing Company,Shreveport, LA
+Alaskan Brewing Company,Juneau, AK
+Notch Brewing Company,Ipswich, MA
+The Alchemist,Waterbury, VT
+Three Notch'd Brewing Company,Charlottesville, VA
+Portside Brewery,Cleveland, OH
+Otter Creek Brewing,Middlebury, VT
+Montauk Brewing Company,Montauk, NY
+Indeed Brewing Company,Minneapolis, MN
+Berkshire Brewing Company,South Deerfield, MA
+Foolproof Brewing Company,Pawtucket, RI
+Headlands Brewing Company,Mill Valley, CA
+Bolero Snort Brewery,Ridgefield Park, NJ
+Thunderhead Brewing Company,Kearney, NE
+Defiance Brewing Company,Hays, KS
+Milwaukee Brewing Company,Milwaukee, WI
+Catawba Island Brewing,Port Clinton, OH
+Back Forty Beer Company,Gadsden, AL
+Four Corners Brewing Company,Dallas, TX
+Saint Archer Brewery,San Diego, CA
+Rogue Ales,Newport, OR
+Hale's Ales,Seattle, WA
+Tommyknocker Brewery,Idaho Springs, CO
+Baxter Brewing Company,Lewiston, ME
+Northampton Brewery,Northamtpon, MA
+Black Shirt Brewing Company,Denver, CO
+Wachusett Brewing Company,Westminster, MA
+Widmer Brothers Brewing Company,Portland, OR
+Hop Farm Brewing Company,Pittsburgh, PA
+Liquid Hero Brewery,York, PA
+Matt Brewing Company,Utica, NY
+Boston Beer Company,Boston, MA
+Old Forge Brewing Company,Danville, PA
+Utah Brewers Cooperative,Salt Lake City, UT
+Magic Hat Brewing Company,South Burlington, VT
+Blue Hills Brewery,Canton, MA
+Night Shift Brewing,Everett, MA
+Beach Brewing Company,Virginia Beach, VA
+Payette Brewing Company,Garden City, ID
+Brew Bus Brewing,Tampa, FL
+Sockeye Brewing Company,Boise, ID
+Pine Street Brewery,San Francisco, CA
+Dirty Bucket Brewing Company,Woodinville, WA
+Jackalope Brewing Company,Nashville, TN
+Slanted Rock Brewing Company,Meridian, ID
+Piney River Brewing Company,Bucryus, MO
+Cutters Brewing Company,Avon, IN
+Iron Hill Brewery & Restaurant,Wilmington, DE
+Marshall Wharf Brewing Company,Belfast, ME
+Banner Beer Company,Williamsburg, MA
+Dick's Brewing Company,Centralia, WA
+Claremont Craft Ales,Claremont, CA
+Rivertown Brewing Company,Lockland, OH
+Voodoo Brewery,Meadville, PA
+D.L. Geary Brewing Company,Portland, ME
+Pisgah Brewing Company,Black Mountain, NC
+Neshaminy Creek Brewing Company,Croydon, PA
+Morgan Street Brewery,Saint Louis, MO
+Half Acre Beer Company,Chicago, IL
+The Just Beer Project,Burlington, VT
+The Bronx Brewery,Bronx, NY
+Dead Armadillo Craft Brewing,Tulsa, OK
+Catawba Brewing Company,Morganton, NC
+La Cumbre Brewing Company,Albuquerque, NM
+David's Ale Works,Diamond Springs, CA
+The Traveler Beer Company,Burlington, VT
+Fargo Brewing Company,Fargo, ND
+Big Sky Brewing Company,Missoula, MT
+Nebraska Brewing Company,Papillion, NE
+Uncle John's Fruit House Winery,St. John's, MI
+Wormtown Brewery,Worcester, MA
+Due South Brewing Company,Boynton Beach, FL
+Palisade Brewing Company,Palisade, CO
+KelSo Beer Company,Brooklyn, NY
+Hardywood Park Craft Brewery,Richmond, VA
+Wolf Hills Brewing Company,Abingdon, VA
+Lavery Brewing Company,Erie, PA
+Manzanita Brewing Company,Santee, CA
+Fullsteam Brewery,Durham, NC
+Four Horsemen Brewing Company,South Bend, IN
+Hinterland Brewery,Green Bay, WI
+Central Coast Brewing Company,San Luis Obispo, CA
+Westfield River Brewing Company,Westfield, MA
+Elevator Brewing Company,Columbus, OH
+Aslan Brewing Company,Bellingham, WA
+Kulshan Brewery,Bellingham, WA
+Pikes Peak Brewing Company,Monument, CO
+Manayunk Brewing Company,Philadelphia, PA
+Buckeye Brewing,Cleveland, OH
+Daredevil Brewing Company,Shelbyville, IN
+NoDa Brewing Company,Charlotte, NC
+Aviator Brewing Company,Fuquay-Varina, NC
+Wild Onion Brewing Company,Lake Barrington, IL
+Hilliard's Beer,Seattle, WA
+Mikkeller,Pottstown, PA
+Bohemian Brewery,Midvale, UT
+Great River Brewery,Davenport, IA
+Mustang Brewing Company,Mustang, OK
+Airways Brewing Company,Kent, WA
+21st Amendment Brewery,San Francisco, CA
+Eddyline Brewery & Restaurant,Buena Vista, CO
+Pizza Port Brewing Company,Carlsbad, CA
+Sly Fox Brewing Company,Pottstown, PA
+Spring House Brewing Company,Conestoga, PA
+7venth Sun,Dunedin, FL
+Astoria Brewing Company,Astoria, OR
+Maui Brewing Company,Lahaina, HI
+RoughTail Brewing Company,Midwest City, OK
+Lucette Brewing Company,Menominee, WI
+Bold City Brewery,Jacksonville, FL
+Grey Sail Brewing of Rhode Island,Westerly, RI
+Blue Blood Brewing Company,Lincoln, NE
+Swashbuckler Brewing Company,Manheim, PA
+Blue Mountain Brewery,Afton, VA
+Starr Hill Brewery,Crozet, VA
+Westbrook Brewing Company,Mt. Pleasant, SC
+Shipyard Brewing Company,Portland, ME
+Revolution Brewing,Paonia, CO
+Natian Brewery,Portland, OR
+Alltech's Lexington Brewing Company,Lexington, KY
+Oskar Blues Brewery (North Carol...,Brevard, NC
+Orlison Brewing Company,Airway Heights, WA
+Breckenridge Brewery,Denver, CO
+Santa Fe Brewing Company,Santa Fe, NM
+Miami Brewing Company,Miami, FL
+Schilling & Company,Seattle, WA
+Hops & Grain Brewery,Austin, TX
+White Flame Brewing Company,Hudsonville, MI
+Ruhstaller Beer Company,Sacramento, CA
+Saugatuck Brewing Company,Douglas, MI
+Moab Brewery,Moab, UT
+Macon Beer Company,Macon, GA
+Amnesia Brewing Company,Washougal, WA
+Wolverine State Brewing Company,Ann Arbor, MI
+Red Tank Cider Company,Bend, OR
+Cascadia Ciderworks United,Portland, OR
+Fate Brewing Company,Boulder, CO
+Lazy Monk Brewing,Eau Claire, WI
+Bitter Root Brewing,Hamilton, MT
+10 Barrel Brewing Company,Bend, OR
+Tamarack Brewing Company,Lakeside, MT
+New England Brewing Company,Woodbridge, CT
+Seattle Cider Company,Seattle, WA
+Straight to Ale,Huntsville, AL
+Austin Beerworks,Austin, TX
+Blue Mountain Brewery,Arrington, VA
+Coastal Empire Beer Company,Savannah, GA
+Jack's Hard Cider (Hauser Estate...,Biglerville, PA
+Boulder Beer Company,Boulder, CO
+Coalition Brewing Company,Portland, OR
+Sanitas Brewing Company,Boulder, CO
+Gore Range Brewery,Edwards, CO
+Redstone Meadery,Boulder, CO
+Blue Dog Mead,Eugene, OR
+Hess Brewing Company,San Diego, CA
+Wynkoop Brewing Company,Denver, CO
+Ciderboys,Stevens Point, WI
+Armadillo Ale Works,Denton, TX
+Roanoke Railhouse Brewery,Roanoke, VA
+Schlafly Brewing Company,Saint Louis, MO
+Asher Brewing Company,Boulder, CO
+Lost Rhino Brewing Company,Ashburn, VA
+North Country Brewing Company,Slippery Rock, PA
+Seabright Brewery,Santa Cruz, CA
+French Broad Brewery,Asheville, NC
+Angry Orchard Cider Company,Cincinnati, OH
+Two Roads Brewing Company,Stratford, CT
+Southern Oregon Brewing Company,Medford, OR
+Brooklyn Brewery,Brooklyn, NY
+The Right Brain Brewery,Traverse City, MI
+Kona Brewing Company,Kona, HI
+MillKing It Productions,Royal Oak, MI
+Pateros Creek Brewing Company,Fort Collins, CO
+O'Fallon Brewery,O'Fallon, MO
+Marble Brewery,Albuquerque, NM
+Big Wood Brewery,Vadnais Heights, MN
+Howard Brewing Company,Lenoir, NC
+Downeast Cider House,Leominster, MA
+Swamp Head Brewery,Gainesville, FL
+Mavericks Beer Company,Half Moon Bay, CA
+TailGate Beer,San Diego, CA
+Northwest Brewing Company,Pacific, WA
+Dad & Dude's Breweria,Aurora, CO
+Centennial Beer Company,Edwards, CO
+Denali Brewing Company,Talkeetna, AK
+Deschutes Brewery,Bend, OR
+Sunken City Brewing Company,Hardy, VA
+Lucette Brewing Company,Menominie, WI
+The Black Tooth Brewing Company,Sheridan, WY
+Kenai River Brewing Company,Soldotna, AK
+River North Brewery,Denver, CO
+Fremont Brewing Company,Seattle, WA
+Armstrong Brewing Company,South San Francisco, CA
+AC Golden Brewing Company,Golden, CO
+Big Bend Brewing Company,Alpine, TX
+Good Life Brewing Company,Bend, OR
+Engine 15 Brewing,Jacksonville Beach, FL
+Green Room Brewing,Jacksonville, FL
+Brindle Dog Brewing Company,Tampa Bay, FL
+Peace Tree Brewing Company,Knoxville, IA
+Terrapin Brewing Company,Athens, GA
+Pete's Brewing Company,San Antonio, TX
+Okoboji Brewing Company,Spirit Lake, IA
+Crystal Springs Brewing Company,Boulder, CO
+Engine House 9,Tacoma, WA
+Tonka Beer Company,Minnetonka, MN
+Red Hare Brewing Company,Marietta, GA
+Hangar 24 Craft Brewery,Redlands, CA
+Big Elm Brewing,Sheffield, MA
+Good People Brewing Company,Birmingham, AL
+Heavy Seas Beer,Halethorpe, MD
+Telluride Brewing Company,Telluride, CO
+7 Seas Brewing Company,Gig Harbor, WA
+Confluence Brewing Company,Des Moines, IA
+Bale Breaker Brewing Company,Yakima, WA
+The Manhattan Brewing Company,New York, NY
+MacTarnahans Brewing Company,Portland, OR
+Stillmank Beer Company,Green Bay, WI
+Redhook Brewery,Woodinville, WA
+Dock Street Brewery,Philadelphia, PA
+Blue Point Brewing Company,Patchogue, NY
+Tampa Bay Brewing Company,Tampa, FL
+Devil's Canyon Brewery,Belmont, CA
+Stone Coast Brewing Company,Portland, ME
+Broken Tooth Brewing Company,Anchorage, AK
+Seven Brides Brewery,Silverton, OR
+Newburyport Brewing Company,Newburyport, MA
+Dry Dock Brewing Company,Aurora, CO
+Cans Bar and Canteen,Charlotte, NC
+Sprecher Brewing Company,Glendale, WI
+Wildwood Brewing Company,Stevensville, MT
+High Noon Saloon And Brewery,Leavenworth, KS
+Woodchuck Hard Cider,Middlebury, VT
+Sea Dog Brewing Company,Portland, ME
+Oskar Blues Brewery,Lyons, CO
+Carolina Beer & Beverage,Mooresville, NC
+Krebs Brewing Company (Pete's Pl...,Krebs, OK
+Warbird Brewing Company,Fort Wayne, IN
+Mudshark Brewing Company,Lake Havasu City, AZ
+Spilker Ales,Cortland, NE
+Wingman Brewers,Tacoma, WA
+Kettle House Brewing Company,Missoula, MT
+Sherwood Forest Brewers,Marlborough, MA
+Cottrell Brewing,Pawcatuck, CT
+Arctic Craft Brewery,Colorado Springs, CO
+Monkey Paw Pub & Brewery,San Diego, CA
+Crabtree Brewing Company,Greeley, CO
+Emerald City Beer Company,Seattle, WA
+Butcher's Brewing,Carlsbad, CA
+New South Brewing Company,Myrtle Beach, SC
+Big River Brewing Company,Chattanooga, TN
+Twisted Pine Brewing Company,Boulder, CO
+Flying Dog Brewery,Frederick, MD
+Uncommon Brewers,Santa Cruz, CA
+Aspen Brewing Company,Aspen, CO
+Triangle Brewing Company,Durham, NC
+Bomb Beer Company,New York, NY
+Churchkey Can Company,Seattle, WA
+Intuition Ale Works,Jacksonville, FL
+Asheville Brewing Company,Asheville, NC
+Northwoods Brewpub,Eau Claire, WI
+Buckbean Brewing Company,Reno, NV
+Dolores River Brewery,Dolores, CO
+Flat Rock Brewing Company,Smithton, PA
+Abita Brewing Company,Abita Springs, LA
+Mammoth Brewing Company,Mammoth Lakes, CA
+Harvest Moon Brewing Company,Belt, MT
+Grand Canyon Brewing Company,Williams, AZ
+Lewis and Clark Brewing Company,Helena, MT
+Dundee Brewing Company,Rochester, NY
+Twin Lakes Brewing Company,Greenville, DE
+Mother Earth Brewing Company,Kinston, NC
+Arcadia Brewing Company,Battle Creek, MI
+Angry Minnow Brewing Company,Hayward, WI
+Great Northern Brewing Company,Whitefish, MT
+Pyramid Breweries,Seattle, WA
+Lancaster Brewing Company,Lancaster, PA
+Upstate Brewing Company,Elmira, NY
+Moat Mountain Smoke House & Brew...,North Conway, NH
+Prescott Brewing Company,Prescott, AZ
+Mogollon Brewing Company,Flagstaff, AZ
+Wind River Brewing Company,Pinedale, WY
+Silverton Brewery,Silverton, CO
+Mickey Finn's Brewery,Libertyville, IL
+Covington Brewhouse,Covington, LA
+Dave's Brewfarm,Wilson, WI
+Ukiah Brewing Company,Ukiah, CA
+Butternuts Beer and Ale,Garrattsville, NY
+Sleeping Lady Brewing Company,Anchorage, AK

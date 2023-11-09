@@ -1,0 +1,162 @@
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from BeerApp.models import *
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+ModuleNotFoundError: No module named 'BeerApp'
+>>> from Listbeers.models import *
+>>> class Car:
+...   x = 10
+...   y = 2
+... 
+>>> class Car:
+... >>> q = Question(question_text="What's new?", pub_date=timezone.now())
+KeyboardInterrupt
+>>> class Car:
+...   x, y = 10, 20
+...   def sum(self):
+...     return self.x + self.y
+... 
+>>> obj vs class
+KeyboardInterrupt
+>>> obj => attr, method
+KeyboardInterrupt
+>>> instance = Car()
+>>> instance.x
+10
+>>> instance.y
+20
+>>> instance.sum()
+30
+>>> class Car:
+...   def __init__(self, x, y):
+...      self.x = x
+...      self.y = y
+...  def sum(self):
+  File "<console>", line 5
+    def sum(self):
+                 ^
+IndentationError: unindent does not match any outer indentation level
+>>> class Car:
+...   def __init__(self, x, y):
+...      self.x = x
+...      self.y = y
+...   def sum(self):
+...     return self.x  + self.y
+... 
+>>> instance = Car(10, 20)
+>>> instance.x
+10
+>>> instance.y
+20
+>>> instance.sum()
+30
+>>> def __del__(self):'
+  File "<console>", line 1
+    def __del__(self):'
+                      ^
+SyntaxError: incomplete input
+>>> ORN => instance, [instance, instance]
+KeyboardInterrupt
+>>> instance => get, first, last
+KeyboardInterrupt
+>>> beer = Beer.objects.first()
+>>> beer = Beer.objects.last()
+>>> beer
+<Beer: Beer object (2410)>
+>>> instance.__dict__
+{'x': 10, 'y': 20}
+>>> beer.__dict__
+{'_state': <django.db.models.base.ModelState object at 0x7ff446c148b0>, 'id': 2410, 'abv': 0.052, 'name': 'Rail Yard Ale (2009)', 'style': 'American Amber / Red Ale', 'brewery_id': 424, 'ounces': 12.0}
+>>> dir(instance)
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'sum', 'x', 'y']
+>>> beer.name
+'Rail Yard Ale (2009)'
+>>> beer.style
+'American Amber / Red Ale'
+>>> beer.brewery
+<Breweries: Breweries object (424)>
+>>> beer.brewery_id
+424
+>>> beer.brewery.city
+'San Diego'
+>>> beer = Beer.objects.all()
+>>> beer
+<QuerySet [<Beer: Beer object (1)>, <Beer: Beer object (2)>, <Beer: Beer object (3)>, <Beer: Beer object (4)>, <Beer: Beer object (5)>, <Beer: Beer object (6)>, <Beer: Beer object (7)>, <Beer: Beer object (8)>, <Beer: Beer object (9)>, <Beer: Beer object (10)>, <Beer: Beer object (11)>, <Beer: Beer object (12)>, <Beer: Beer object (13)>, <Beer: Beer object (14)>, <Beer: Beer object (15)>, <Beer: Beer object (16)>, <Beer: Beer object (17)>, <Beer: Beer object (18)>, <Beer: Beer object (19)>, <Beer: Beer object (20)>, '...(remaining elements truncated)...']>
+>>> beers = Beer.objects.all()
+>>> beers.values()
+<QuerySet [{'id': 1, 'abv': 0.05, 'name': 'Pub Beer', 'style': 'American Pale Lager', 'brewery_id': 408, 'ounces': 12.0}, {'id': 2, 'abv': 0.066, 'name': "Devil's Cup", 'style': 'American Pale Ale (APA)', 'brewery_id': 177, 'ounces': 12.0}, {'id': 3, 'abv': 0.071, 'name': 'Rise of the Phoenix', 'style': 'American IPA', 'brewery_id': 177, 'ounces': 12.0}, {'id': 4, 'abv': 0.09, 'name': 'Sinister', 'style': 'American Double / Imperial IPA', 'brewery_id': 177, 'ounces': 12.0}, {'id': 5, 'abv': 0.075, 'name': 'Sex and Candy', 'style': 'American IPA', 'brewery_id': 177, 'ounces': 12.0}, {'id': 6, 'abv': 0.077, 'name': 'Black Exodus', 'style': 'Oatmeal Stout', 'brewery_id': 177, 'ounces': 12.0}, {'id': 7, 'abv': 0.045, 'name': 'Lake Street Express', 'style': 'American Pale Ale (APA)', 'brewery_id': 177, 'ounces': 12.0}, {'id': 8, 'abv': 0.065, 'name': 'Foreman', 'style': 'American Porter', 'brewery_id': 177, 'ounces': 12.0}, {'id': 9, 'abv': 0.055, 'name': 'Jade', 'style': 'American Pale Ale (APA)', 'brewery_id': 177, 'ounces': 12.0}, {'id': 10, 'abv': 0.086, 'name': 'Cone Crusher', 'style': 'American Double / Imperial IPA', 'brewery_id': 177, 'ounces': 12.0}, {'id': 11, 'abv': 0.072, 'name': 'Sophomoric Saison', 'style': 'Saison / Farmhouse Ale', 'brewery_id': 177, 'ounces': 12.0}, {'id': 12, 'abv': 0.073, 'name': 'Regional Ring Of Fire', 'style': 'Saison / Farmhouse Ale', 'brewery_id': 177, 'ounces': 12.0}, {'id': 13, 'abv': 0.069, 'name': 'Garce Selé', 'style': 'Saison / Farmhouse Ale', 'brewery_id': 177, 'ounces': 12.0}, {'id': 14, 'abv': 0.085, 'name': 'Troll Destroyer', 'style': 'Belgian IPA', 'brewery_id': 177, 'ounces': 12.0}, {'id': 15, 'abv': 0.061, 'name': 'Bitter Bitch', 'style': 'American Pale Ale (APA)', 'brewery_id': 177, 'ounces': 12.0}, {'id': 16, 'abv': 0.06, 'name': 'Ginja Ninja', 'style': 'Cider', 'brewery_id': 154, 'ounces': 12.0}, {'id': 17, 'abv': 0.06, 'name': 'Cherried Away', 'style': 'Cider', 'brewery_id': 154, 'ounces': 12.0}, {'id': 18, 'abv': 0.06, 'name': 'Rhubarbarian', 'style': 'Cider', 'brewery_id': 154, 'ounces': 12.0}, {'id': 19, 'abv': 0.06, 'name': 'BrightCider', 'style': 'Cider', 'brewery_id': 154, 'ounces': 12.0}, {'id': 20, 'abv': 0.082, 'name': 'He Said Baltic-Style Porter', 'style': 'Baltic Porter', 'brewery_id': 368, 'ounces': 12.0}, '...(remaining elements truncated)...']>
+>>> beers.values('id', 'name')
+<QuerySet [{'id': 1, 'name': 'Pub Beer'}, {'id': 2, 'name': "Devil's Cup"}, {'id': 3, 'name': 'Rise of the Phoenix'}, {'id': 4, 'name': 'Sinister'}, {'id': 5, 'name': 'Sex and Candy'}, {'id': 6, 'name': 'Black Exodus'}, {'id': 7, 'name': 'Lake Street Express'}, {'id': 8, 'name': 'Foreman'}, {'id': 9, 'name': 'Jade'}, {'id': 10, 'name': 'Cone Crusher'}, {'id': 11, 'name': 'Sophomoric Saison'}, {'id': 12, 'name': 'Regional Ring Of Fire'}, {'id': 13, 'name': 'Garce Selé'}, {'id': 14, 'name': 'Troll Destroyer'}, {'id': 15, 'name': 'Bitter Bitch'}, {'id': 16, 'name': 'Ginja Ninja'}, {'id': 17, 'name': 'Cherried Away'}, {'id': 18, 'name': 'Rhubarbarian'}, {'id': 19, 'name': 'BrightCider'}, {'id': 20, 'name': 'He Said Baltic-Style Porter'}, '...(remaining elements truncated)...']>
+>>> beers.only()
+<QuerySet [<Beer: Beer object (1)>, <Beer: Beer object (2)>, <Beer: Beer object (3)>, <Beer: Beer object (4)>, <Beer: Beer object (5)>, <Beer: Beer object (6)>, <Beer: Beer object (7)>, <Beer: Beer object (8)>, <Beer: Beer object (9)>, <Beer: Beer object (10)>, <Beer: Beer object (11)>, <Beer: Beer object (12)>, <Beer: Beer object (13)>, <Beer: Beer object (14)>, <Beer: Beer object (15)>, <Beer: Beer object (16)>, <Beer: Beer object (17)>, <Beer: Beer object (18)>, <Beer: Beer object (19)>, <Beer: Beer object (20)>, '...(remaining elements truncated)...']>
+>>> dir(beers)
+['__aiter__', '__and__', '__bool__', '__class__', '__class_getitem__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__or__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '__xor__', '_add_hints', '_annotate', '_batched_insert', '_chain', '_check_bulk_create_options', '_check_operator_queryset', '_check_ordering_first_last_queryset_aggregation', '_clone', '_combinator_query', '_db', '_defer_next_filter', '_deferred_filter', '_earliest', '_extract_model_params', '_fetch_all', '_fields', '_filter_or_exclude', '_filter_or_exclude_inplace', '_for_write', '_has_filters', '_hints', '_insert', '_iterable_class', '_iterator', '_known_related_objects', '_merge_known_related_objects', '_merge_sanity_check', '_next_is_sticky', '_not_support_combined_queries', '_prefetch_done', '_prefetch_related_lookups', '_prefetch_related_objects', '_prepare_for_bulk_create', '_query', '_raw_delete', '_result_cache', '_sticky_filter', '_update', '_validate_values_are_expressions', '_values', 'aaggregate', 'abulk_create', 'abulk_update', 'acontains', 'acount', 'acreate', 'adelete', 'aearliest', 'aexists', 'aexplain', 'afirst', 'aget', 'aget_or_create', 'aggregate', 'ain_bulk', 'aiterator', 'alast', 'alatest', 'alias', 'all', 'annotate', 'as_manager', 'aupdate', 'aupdate_or_create', 'bulk_create', 'bulk_update', 'complex_filter', 'contains', 'count', 'create', 'dates', 'datetimes', 'db', 'defer', 'delete', 'difference', 'distinct', 'earliest', 'exclude', 'exists', 'explain', 'extra', 'filter', 'first', 'get', 'get_or_create', 'in_bulk', 'intersection', 'iterator', 'last', 'latest', 'model', 'none', 'only', 'order_by', 'ordered', 'prefetch_related', 'query', 'raw', 'resolve_expression', 'reverse', 'select_for_update', 'select_related', 'union', 'update', 'update_or_create', 'using', 'values', 'values_list']
+>>> beers.values_list()
+<QuerySet [(1, 0.05, 'Pub Beer', 'American Pale Lager', 408, 12.0), (2, 0.066, "Devil's Cup", 'American Pale Ale (APA)', 177, 12.0), (3, 0.071, 'Rise of the Phoenix', 'American IPA', 177, 12.0), (4, 0.09, 'Sinister', 'American Double / Imperial IPA', 177, 12.0), (5, 0.075, 'Sex and Candy', 'American IPA', 177, 12.0), (6, 0.077, 'Black Exodus', 'Oatmeal Stout', 177, 12.0), (7, 0.045, 'Lake Street Express', 'American Pale Ale (APA)', 177, 12.0), (8, 0.065, 'Foreman', 'American Porter', 177, 12.0), (9, 0.055, 'Jade', 'American Pale Ale (APA)', 177, 12.0), (10, 0.086, 'Cone Crusher', 'American Double / Imperial IPA', 177, 12.0), (11, 0.072, 'Sophomoric Saison', 'Saison / Farmhouse Ale', 177, 12.0), (12, 0.073, 'Regional Ring Of Fire', 'Saison / Farmhouse Ale', 177, 12.0), (13, 0.069, 'Garce Selé', 'Saison / Farmhouse Ale', 177, 12.0), (14, 0.085, 'Troll Destroyer', 'Belgian IPA', 177, 12.0), (15, 0.061, 'Bitter Bitch', 'American Pale Ale (APA)', 177, 12.0), (16, 0.06, 'Ginja Ninja', 'Cider', 154, 12.0), (17, 0.06, 'Cherried Away', 'Cider', 154, 12.0), (18, 0.06, 'Rhubarbarian', 'Cider', 154, 12.0), (19, 0.06, 'BrightCider', 'Cider', 154, 12.0), (20, 0.082, 'He Said Baltic-Style Porter', 'Baltic Porter', 368, 12.0), '...(remaining elements truncated)...']>
+>>> beers.values_list('id', 'name')
+<QuerySet [(1, 'Pub Beer'), (2, "Devil's Cup"), (3, 'Rise of the Phoenix'), (4, 'Sinister'), (5, 'Sex and Candy'), (6, 'Black Exodus'), (7, 'Lake Street Express'), (8, 'Foreman'), (9, 'Jade'), (10, 'Cone Crusher'), (11, 'Sophomoric Saison'), (12, 'Regional Ring Of Fire'), (13, 'Garce Selé'), (14, 'Troll Destroyer'), (15, 'Bitter Bitch'), (16, 'Ginja Ninja'), (17, 'Cherried Away'), (18, 'Rhubarbarian'), (19, 'BrightCider'), (20, 'He Said Baltic-Style Porter'), '...(remaining elements truncated)...']>
+>>> beers.values_list('id', flat=True)
+<QuerySet [70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 1494, 1495, 1496, 1497, 1498, 1499, 1119, '...(remaining elements truncated)...']>
+>>> beers.query.__str__()
+'SELECT "Listbeers_beer"."id", "Listbeers_beer"."abv", "Listbeers_beer"."name", "Listbeers_beer"."style", "Listbeers_beer"."brewery_id", "Listbeers_beer"."ounces" FROM "Listbeers_beer"'
+>>> beers = Beer.objects.filter(id=20)
+>>> beers.query.__str__()
+'SELECT "Listbeers_beer"."id", "Listbeers_beer"."abv", "Listbeers_beer"."name", "Listbeers_beer"."style", "Listbeers_beer"."brewery_id", "Listbeers_beer"."ounces" FROM "Listbeers_beer" WHERE "Listbeers_beer"."id" = 20'
+>>> beer = Beer.objects.get(id=20)
+>>> beer
+<Beer: Beer object (20)>
+>>> beers
+<QuerySet [<Beer: Beer object (20)>]>
+>>> beers = Beer.objects.filter(name='AA')
+>>> beers
+<QuerySet []>
+>>> beers = Beer.objects.filter(id=20)
+>>> beers = Beer.objects.filter(id__gte=20)
+>>> beers.values()
+<QuerySet [{'id': 20, 'abv': 0.082, 'name': 'He Said Baltic-Style Porter', 'style': 'Baltic Porter', 'brewery_id': 368, 'ounces': 12.0}, {'id': 21, 'abv': 0.082, 'name': 'He Said Belgian-Style Tripel', 'style': 'Tripel', 'brewery_id': 368, 'ounces': 12.0}, {'id': 22, 'abv': 0.099, 'name': 'Lower De Boom', 'style': 'American Barleywine', 'brewery_id': 368, 'ounces': 8.0}, {'id': 23, 'abv': 0.079, 'name': 'Fireside Chat', 'style': 'Winter Warmer', 'brewery_id': 368, 'ounces': 12.0}, {'id': 24, 'abv': 0.079, 'name': 'Marooned On Hog Island', 'style': 'American Stout', 'brewery_id': 368, 'ounces': 12.0}, {'id': 25, 'abv': 0.044, 'name': 'Bitter American', 'style': 'American Pale Ale (APA)', 'brewery_id': 368, 'ounces': 12.0}, {'id': 26, 'abv': 0.049, 'name': 'Hell or High Watermelon Wheat (2009)', 'style': 'Fruit / Vegetable Beer', 'brewery_id': 368, 'ounces': 12.0}, {'id': 27, 'abv': 0.049, 'name': 'Hell or High Watermelon Wheat (2009)', 'style': 'Fruit / Vegetable Beer', 'brewery_id': 368, 'ounces': 12.0}, {'id': 28, 'abv': 0.049, 'name': '21st Amendment Watermelon Wheat Beer (2006)', 'style': 'Fruit / Vegetable Beer', 'brewery_id': 368, 'ounces': 12.0}, {'id': 29, 'abv': 0.07, 'name': '21st Amendment IPA (2006)', 'style': 'American IPA', 'brewery_id': 368, 'ounces': 12.0}, {'id': 30, 'abv': 0.07, 'name': 'Brew Free! or Die IPA (2008)', 'style': 'American IPA', 'brewery_id': 368, 'ounces': 12.0}, {'id': 31, 'abv': 0.07, 'name': 'Brew Free! or Die IPA (2009)', 'style': 'American IPA', 'brewery_id': 368, 'ounces': 12.0}, {'id': 32, 'abv': 0.085, 'name': 'Special Edition: Allies Win The War!', 'style': 'English Strong Ale', 'brewery_id': 368, 'ounces': 12.0}, {'id': 33, 'abv': 0.097, 'name': 'Hop Crisis', 'style': 'American Double / Imperial IPA', 'brewery_id': 368, 'ounces': 12.0}, {'id': 34, 'abv': 0.044, 'name': 'Bitter American (2011)', 'style': 'American Pale Ale (APA)', 'brewery_id': 368, 'ounces': 12.0}, {'id': 35, 'abv': 0.079, 'name': 'Fireside Chat (2010)', 'style': 'Winter Warmer', 'brewery_id': 368, 'ounces': 12.0}, {'id': 36, 'abv': 0.068, 'name': 'Back in Black', 'style': 'American Black Ale', 'brewery_id': 368, 'ounces': 12.0}, {'id': 37, 'abv': 0.083, 'name': "Monk's Blood", 'style': 'Belgian Dark Ale', 'brewery_id': 368, 'ounces': 12.0}, {'id': 38, 'abv': 0.07, 'name': 'Brew Free! or Die IPA', 'style': 'American IPA', 'brewery_id': 368, 'ounces': 12.0}, {'id': 39, 'abv': 0.049, 'name': 'Hell or High Watermelon Wheat', 'style': 'Fruit / Vegetable Beer', 'brewery_id': 368, 'ounces': 12.0}, '...(remaining elements truncated)...']>
+>>> beers = Beer.objects.filter(id__lte=20)
+>>> beers
+<QuerySet [<Beer: Beer object (1)>, <Beer: Beer object (2)>, <Beer: Beer object (3)>, <Beer: Beer object (4)>, <Beer: Beer object (5)>, <Beer: Beer object (6)>, <Beer: Beer object (7)>, <Beer: Beer object (8)>, <Beer: Beer object (9)>, <Beer: Beer object (10)>, <Beer: Beer object (11)>, <Beer: Beer object (12)>, <Beer: Beer object (13)>, <Beer: Beer object (14)>, <Beer: Beer object (15)>, <Beer: Beer object (16)>, <Beer: Beer object (17)>, <Beer: Beer object (18)>, <Beer: Beer object (19)>, <Beer: Beer object (20)>]>
+>>> beers = Beer.objects.filter(id__gte=5, id__lte=20)
+>>> beers.query.__str__()
+'SELECT "Listbeers_beer"."id", "Listbeers_beer"."abv", "Listbeers_beer"."name", "Listbeers_beer"."style", "Listbeers_beer"."brewery_id", "Listbeers_beer"."ounces" FROM "Listbeers_beer" WHERE ("Listbeers_beer"."id" >= 5 AND "Listbeers_beer"."id" <= 20)'
+>>> beers = Beer.objects.filter(id__range=(10, 20))
+>>> beers.query.__str__()
+'SELECT "Listbeers_beer"."id", "Listbeers_beer"."abv", "Listbeers_beer"."name", "Listbeers_beer"."style", "Listbeers_beer"."brewery_id", "Listbeers_beer"."ounces" FROM "Listbeers_beer" WHERE "Listbeers_beer"."id" BETWEEN 10 AND 20'
+>>> range(10)
+range(0, 10)
+>>> list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> beers = Beer.objects.filter(name__startswith='A')
+>>> beers.query
+<django.db.models.sql.query.Query object at 0x7ff446bd6cb0>
+>>> beers.query.__str__()
+'SELECT "Listbeers_beer"."id", "Listbeers_beer"."abv", "Listbeers_beer"."name", "Listbeers_beer"."style", "Listbeers_beer"."brewery_id", "Listbeers_beer"."ounces" FROM "Listbeers_beer" WHERE "Listbeers_beer"."name" LIKE A% ESCAPE \'\\\''
+>>> beers = Beer.objects.filter(name__istartswith='A')
+>>> beers.query.__str__()
+'SELECT "Listbeers_beer"."id", "Listbeers_beer"."abv", "Listbeers_beer"."name", "Listbeers_beer"."style", "Listbeers_beer"."brewery_id", "Listbeers_beer"."ounces" FROM "Listbeers_beer" WHERE "Listbeers_beer"."name" LIKE A% ESCAPE \'\\\''
+>>> beers = Beer.objects.filter(name__istartswith='A')
+>>> beers.query.__str__()
+'SELECT "Listbeers_beer"."id", "Listbeers_beer"."abv", "Listbeers_beer"."name", "Listbeers_beer"."style", "Listbeers_beer"."brewery_id", "Listbeers_beer"."ounces" FROM "Listbeers_beer" WHERE "Listbeers_beer"."name" LIKE A% ESCAPE \'\\\''
+>>> beers = Beer.objects.filter(name__iendswith='A')
+>>> beers.query.__str__()
+'SELECT "Listbeers_beer"."id", "Listbeers_beer"."abv", "Listbeers_beer"."name", "Listbeers_beer"."style", "Listbeers_beer"."brewery_id", "Listbeers_beer"."ounces" FROM "Listbeers_beer" WHERE "Listbeers_beer"."name" LIKE %A ESCAPE \'\\\''
+>>> beers = Beer.objects.filter(name__contains='A')
+>>> beers
+<QuerySet [<Beer: Beer object (5)>, <Beer: Beer object (6)>, <Beer: Beer object (7)>, <Beer: Beer object (8)>, <Beer: Beer object (9)>, <Beer: Beer object (11)>, <Beer: Beer object (12)>, <Beer: Beer object (13)>, <Beer: Beer object (16)>, <Beer: Beer object (17)>, <Beer: Beer object (18)>, <Beer: Beer object (20)>, <Beer: Beer object (21)>, <Beer: Beer object (23)>, <Beer: Beer object (24)>, <Beer: Beer object (25)>, <Beer: Beer object (26)>, <Beer: Beer object (27)>, <Beer: Beer object (28)>, <Beer: Beer object (29)>, '...(remaining elements truncated)...']>
+>>> beers.query.__str__()
+'SELECT "Listbeers_beer"."id", "Listbeers_beer"."abv", "Listbeers_beer"."name", "Listbeers_beer"."style", "Listbeers_beer"."brewery_id", "Listbeers_beer"."ounces" FROM "Listbeers_beer" WHERE "Listbeers_beer"."name" LIKE %A% ESCAPE \'\\\''
+>>> beers = Beer.objects.filter(name__in=[1,2,3])
+>>> beers = Beer.objects.filter(id__in=[1,2,3])
+>>> beers.query.__str__()
+'SELECT "Listbeers_beer"."id", "Listbeers_beer"."abv", "Listbeers_beer"."name", "Listbeers_beer"."style", "Listbeers_beer"."brewery_id", "Listbeers_beer"."ounces" FROM "Listbeers_beer" WHERE "Listbeers_beer"."id" IN (1, 2, 3)'
+>>> beers = Beer.objects.filter(bewery__name__iexact='A')
+KeyboardInterrupt
+>>> beers = Beer.objects.exclude(id__in=[1,2,3])
+>>> beers.query.__str__()
+'SELECT "Listbeers_beer"."id", "Listbeers_beer"."abv", "Listbeers_beer"."name", "Listbeers_beer"."style", "Listbeers_beer"."brewery_id", "Listbeers_beer"."ounces" FROM "Listbeers_beer" WHERE NOT ("Listbeers_beer"."id" IN (1, 2, 3))'
+>>> beers = Beer.objects.annotate(search=Concat('name', Value(' '), 'brewery__name', output=CharField()))
+KeyboardInterrupt
+>>> beers = Beer.objects.order_by('-id', 'name')
