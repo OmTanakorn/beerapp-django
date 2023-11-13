@@ -7,4 +7,4 @@ class BreweriesFilter(filters.FilterSet):
 
   class Meta:
     model = Breweries
-    fields = ["id","state"]
+    fields = ["id","name","city"]

@@ -7,7 +7,6 @@ from django_filters import rest_framework as filters
 from rest_framework import generics
 from .filters import BreweriesFilter
 
-
 # Create your views here.
  
 class BreweriesList(generics.ListAPIView):
@@ -20,13 +19,13 @@ class BeerList(generics.ListAPIView):
     serializer_class = BeerSerializer
 
     def get_queryset(self):
-        queryset = Beer.objects.all()
         id = self.request.query_params.get('id')
-
-        if id is not None:
-            queryset = queryset.filter(id=id)
-
-        return queryset
+        if id is None:
+            queryget = Beer.objects.all()
+            return queryget
+        queryget = Beer.objects.filter(id__gte=id)
+        print(queryget)
+        return queryget
 
 # class BeerState(generics.ListAPIView):
 #     serializer_class = BeerSerializer

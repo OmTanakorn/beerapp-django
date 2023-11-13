@@ -4,7 +4,10 @@ from django.db import models
 class Breweries(models.Model):
     name = models.TextField()
     city = models.TextField()
-    state = models.CharField(max_length=20)
+    
+
+    # def get_city_state(self):
+    #     return self.city + " " + self.state
 
 class Beer(models.Model):
     abv = models.FloatField(default=0.5)
