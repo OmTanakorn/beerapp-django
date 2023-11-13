@@ -13,19 +13,19 @@ class Beer(models.Model):
     brewery = models.ForeignKey(Breweries,related_name='brewery_beers',on_delete=models.CASCADE)
     ounces = models.FloatField()
 
-    @property
-    def show_name(self):
-        return self.name + " " + self.style
+#     @property
+#     def show_name(self):
+#         return self.name + " " + self.style
     
-    @staticmethod
-    def x():
-        return 10
+#     @staticmethod
+#     def x():
+#         return 10
     
 
-beers = Beer.objects.all()
-for no, beer in enumerate(beers):
-    data = beer.__dict__
-    data.update({"no": no})
-    print(data)
+#  beers = Beer.objects.all()
+# for no, beer in enumerate(beers):
+#     data = beer.__dict__
+#     data.update({"no": no})
+#     print(data)
 
 

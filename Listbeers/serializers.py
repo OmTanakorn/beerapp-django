@@ -2,8 +2,6 @@ from rest_framework import serializers
 from Listbeers.models import Breweries,Beer
 
 class BreweriesSerializers(serializers.ModelSerializer):
-  def to_representation(self, instance):
-    return super().to_representation(instance)
 
   class Meta:
     model = Breweries
