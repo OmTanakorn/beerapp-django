@@ -10,7 +10,7 @@ def forwards_func(apps, schema_editor):
     for brewerie in Breweries.objects.all():
         brewerie.city = brewerie.city +","+brewerie.state
         brewerie.save()
-
+1
 def reverse_func(apps, schema_editor):
     pass
 

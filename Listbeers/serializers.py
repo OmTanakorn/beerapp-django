@@ -1,27 +1,33 @@
 from rest_framework import serializers
-from Listbeers.models import Breweries,Beer
+from Listbeers.models import Breweries,Beer,Store
+
+class BeerSerializers(serializers.ModelSerializer):
+  brewery_name = serializers.CharField(source='brewery.name')
+  
+  class Meta:
+    model = Beer
+    fields = ['id','abv','name','style','brewery','ounces', 'brewery_name']
+
+class StoreSerializers(serializers.ModelSerializer):
+  beers = BeerSerializers(source='beer',many=True, read_only=True)
+  beers_style = serializers.CharField(field_name='beers__style')
+
+  class Meta:
+    model = Store
+    fields = ['id','name','local','beers','beers_style']
 
 class BreweriesSerializers(serializers.ModelSerializer):
-
   class Meta:
     model = Breweries
     fields = ['id','name','city']
 
   # def to_representation(self, instance):
   #   return super().to_representation(instance)
-    
   # def to_internal_value(self, data):
   #   return super().to_internal_value(data)
-  
   # def validate(self, attrs):
   #   return super().validate(attrs)
 
-class BeerSerializer(serializers.ModelSerializer):
-  brewery = serializers.SerializerMethodField(method_name='brewery_detail')
-  brewery_name = serializers.CharField(source='brewery.name')
-
-  def brewery_detail(self, instance):
-    return instance.brewery.get_city_state()
 
   # def to_representation(self,instance ):
   #   print(instance.brewery)
@@ -41,6 +47,4 @@ class BeerSerializer(serializers.ModelSerializer):
   #     data["style"]="IPA"
   #   return super().to_internal_value(data)
   
-  class Meta:
-    model = Beer
-    fields = ['id','abv','name','style','brewery','ounces', 'brewery_name']
+  

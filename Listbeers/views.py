@@ -1,13 +1,30 @@
 from rest_framework.views import APIView
 from django_filters.rest_framework import DjangoFilterBackend
-from Listbeers.models import Breweries,Beer
-from Listbeers.serializers import BreweriesSerializers,BeerSerializer
+from Listbeers.models import Breweries, Beer, Store
+from Listbeers.serializers import BreweriesSerializers, BeerSerializers, StoreSerializers
 from rest_framework.response import Response
 from django_filters import rest_framework as filters
-from rest_framework import generics
-from .filters import BreweriesFilter
+from rest_framework import generics,status
+from .filters import BreweriesFilter, StoreFilter, BeerFilter
 
 # Create your views here.
+
+class StoreList(generics.CreateAPIView, generics.ListAPIView):
+    queryset = Store.objects.all()
+    serializer_class = StoreSerializers
+    filter_backends = [DjangoFilterBackend]
+    filterset_class = StoreFilter
+
+    def create(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        self.perform_create(serializer)
+        headers = self.get_success_headers(serializer.data)
+        return Response(serializer.data, status=status.HTTP_201_CREATED, headers=headers)
+
+    def perform_create(self, serializer,):
+        serializer.save()
+
  
 class BreweriesList(generics.ListAPIView):
     queryset = Breweries.objects.all()
@@ -16,16 +33,10 @@ class BreweriesList(generics.ListAPIView):
     filterset_class = BreweriesFilter
     
 class BeerList(generics.ListAPIView):
-    serializer_class = BeerSerializer
-
-    def get_queryset(self):
-        id = self.request.query_params.get('id')
-        if id is None:
-            queryget = Beer.objects.all()
-            return queryget
-        queryget = Beer.objects.filter(id__gte=id)
-        print(queryget)
-        return queryget
+    queryset = Beer.objects.all()
+    serializer_class = BeerSerializers
+    filter_backends = [DjangoFilterBackend]
+    filterset_class = BeerFilter
 
 # class BeerState(generics.ListAPIView):
 #     serializer_class = BeerSerializer
