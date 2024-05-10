@@ -1,2 +1,2 @@
-# beerapp-django
-tutodjango
+# finder-app-django
+Ku ja su
